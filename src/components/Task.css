@@ -1,0 +1,19 @@
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  margin-bottom: 1rem;
+}
+.taskContainer p {
+  cursor: pointer;
+}
+.taskContainer p:hover {
+  background-color: rgb(63, 61, 61);
+  color: whitesmoke;
+  padding: 0 0.4rem;
+}
+.completed {
+  color: tomato;
+  text-decoration: line-through;
+}
